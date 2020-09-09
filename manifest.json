@@ -1,0 +1,24 @@
+{
+    "name": "OAuth 2 openid",
+    "version": "1.0",
+    "description": "Uses google sign in option",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_title": "Google sign in"
+    },
+    "background": {
+      "scripts": [
+        "background.js",
+        "jsrsasign-all-min.js"
+      ],
+      "persistent": false
+    },
+  "options_page":"options.html",
+  "browser_action":{
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8ax/egNyKfTIC7NJxt8bqUFVAKKkmGq4n/Gom1TeY5SGhnA1s6xfWwSgh8gbRTs9BdSoDk0gmce/mOgyCR5Y1TI1hXAcDmWLj0x2IRa6l1P4HbQlg09ftxrVx0HnwxHu7NOIP3D9K1yamnmcTsj+g/Emdr/ydVIuWokhvu486M20gYvZyeSDDiNaVF0hZRSrHgtEntaZIJd5t4WiBWsuikmRjG+FtC5mdPxKGnt1bsFErhfwprmzF9UkfuPkOcuy/bi6veV7yjkZlkqTkxaIRDP2ImuUvRSYX345NhkddzHRTS72MklRjxbptRrxZiDgJCbBxWzI01YkcfhTXhF+sQIDAQAB",
+  "permissions":[
+      "identity",
+      "cookies"
+  ]
+}
